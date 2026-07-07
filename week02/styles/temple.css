@@ -28,7 +28,7 @@ main {
 }
 
 img {
-    width: 100px;
+    width: 100%;
     box-shadow: 0 0 30px #333333;
 }
 

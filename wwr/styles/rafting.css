@@ -20,7 +20,7 @@ body {
 header, main, footer {
     background-color: #d8efe2;
     color: var(--accent2-color);
-    max-width: 840px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -31,7 +31,7 @@ header {
     grid-template-columns: 120px 1fr 1fr;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #333;
+    border: 2px solid #333;
 }
 nav ul {
     display: flex;
@@ -62,7 +62,10 @@ nav, p, section, article {
     position: relative;
     border: 2px solid black;
     padding: 20px;
+    width: max-content;
+    max-width: 100%;
     margin-bottom: 30px;
+    height: 585px;
 }
 
 .hero h1 {
@@ -87,11 +90,10 @@ nav, p, section, article {
 .hero article {
     display: flex;
     align-items: center;
-    position: absolute;
+    position: relative;
+    top: -95px;
     margin: 0px;
-    
-    bottom: 3px;
-    width: 95%;
+    width: 100%;
     text-align: justify;
     opacity: 0.8;
     background-color: var(--accent1-color);
@@ -110,7 +112,7 @@ nav, p, section, article {
 
 .history {
     border: 2px solid black;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 30px;
     display: grid;
     place-items: center;
@@ -123,60 +125,83 @@ nav, p, section, article {
     align-items: center;
     justify-content: center;
     margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .history h2 {
     text-align: center;
     margin-top: 0;
+    grid-column: 1/4;
 }
 
 .history p {
     display: flex;
     flex: 1;
-    gap: 20px;
-    align-items: center;
+    gap: 20px;;
 }
 
 
 .figure {
     border: 2px solid black;
     display: flex;
-    justify-content: space-between;
-    gap: 15px;
-    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
     padding: 20px;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    text-align: center;
 }
 
-
-
-.figure img {
-    width: 100px;
-    max-width: 300px;
-    flex: 1;
+.figure h2 {
+    margin: 0;
+    font-family: serif;
+    font-size: 24px;
     text-align: center;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 } 
 
-figcaption {
-    font-size: 0.9rem;
-    margin: 0;
+.adventure-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    width: 100%;
+}
+
+.adventure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 110px;
+    margin: 10px;
+}
+
+.adventure img {
+    width: 100%;
+    height: auto;
+} 
+
+.adventure figcaption {
+    font-size: 13px;
+    margin-top: 8px;
 } 
 
 footer {
     display: flex;
-    padding: 0px 0px;
-    justify-content: space-between;
+    padding: 15px;
+    justify-content: center;
     align-items: center;
-    border-top: 2px solid black;
+    border: 2px solid black;
 }
 
-socialmedia {
+.footer p {
+    margin: 0;
+    text-align: center;
+}
+
+.socialmedia {
+    position: absolute;
+    right: 220px;
     display: flex;
     gap: 10px;
     

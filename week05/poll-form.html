@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll Form</title>
+    <meta name="description"
+      content="This HTML file was created for the purpose of completing week 5 activity.">
+    <meta name="author" content="Edgie Marielle Ambao">
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<header>
+    <main>
+            <form>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-item column2">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite browser?</label>
+                    <select name="browser" id="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="safari">Safari</option>
+                    <option value="edge">Edge</option>
+                    </select>
+                </div>
+                <div class="form-item column1">
+                    <label><input type="checkbox" id="pet" name="pet">Do you have a household pet?</label>
+                </div>
+                <div class="form-item">
+                    <label for="feedback">List the places you have lived:</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Batangas Philippines, Los Angeles California, Brisbane Australia, South Africa"></textarea>
+                </div>
+
+                <button type="submit">Submit Poll</button>
+            </form>
+    </main>
+</header>
+<footer>
+    <p>©2026 | HTML Form - User Poll Activity | Edgie Marielle Ambao</p>
+</footer>
+</html>

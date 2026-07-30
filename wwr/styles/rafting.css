@@ -244,9 +244,16 @@ button {
     width: 300px;
 }
 
-.column1, .message, .purpose, button {
+.column1, .message, button {
     display: flex;
     flex-direction: row;
+    margin: 10px 0;
+    gap: 15px;
+}
+
+.purpose {
+    display: flex;
+    flex-direction: column;
     margin: 10px 0;
     gap: 15px;
 }

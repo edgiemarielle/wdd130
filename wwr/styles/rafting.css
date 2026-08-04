@@ -76,7 +76,6 @@ nav, p, section, article {
     top: 35px;
     width: 95.5%;
     padding: 10px;
-    opacity: 0.8;
     background-color: var(--accent1-color);
     color: #ffffff;
 }
@@ -97,9 +96,8 @@ nav, p, section, article {
     margin: 0px;
     width: 95.5%;
     text-align: justify;
-    opacity: 0.8;
     background-color: var(--accent1-color);
-    color:#d8efe2
+    color:#ffffff
 }
 
 .hero article img {

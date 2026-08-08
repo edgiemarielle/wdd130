@@ -104,9 +104,14 @@ nav, p, section, article {
     width: 95.5%;
     text-align: justify;
     background-color: var(--accent1-color);
-    color:#eaf7f0;
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
+    color: #eaf7f0;
+}
+
+.hero h2 {
+    padding: 5px;
+    color: #eaf7f0;
 }
 
 .hero article img {

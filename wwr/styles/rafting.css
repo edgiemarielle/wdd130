@@ -471,8 +471,9 @@ textarea {
     background-color: #d9eada;
 }
 
-.contact h2 {
+.contact h1 {
     font-style: italic;
+    font-size: 25px;
 }
 
 .contact p, .contact a {
